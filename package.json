@@ -4,6 +4,7 @@
   "description": "A GitHub Action to calculate ABV given the original and final gravity of a beverage. No, it's not very useful.",
   "main": "index.js",
   "scripts": {
+    "build": "ncc build index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,5 +20,8 @@
   "homepage": "https://github.com/jfahrenkrug/abv-calculator-action#readme",
   "dependencies": {
     "@actions/core": "^1.2.3"
+  },
+  "devDependencies": {
+    "@zeit/ncc": "^0.21.1"
   }
 }
