@@ -1,0 +1,16 @@
+on: [push]
+
+jobs:
+  abv_job:
+    runs-on: ubuntu-latest
+    name: A job to calculate ABV
+    steps:
+    - name: Calculate ABV
+      id: abv
+      uses: jfahrenkrug/abv-calculator-action@v1
+      with:
+        og: '1.077'
+        fg: '1.015'
+    # Use the output from the `abv` step
+    - name: Print ABV
+      run: echo "The ABV is ${{ steps.abv.outputs.abv }}%."
