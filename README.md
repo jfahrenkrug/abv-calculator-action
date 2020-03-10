@@ -1,6 +1,6 @@
 # ABV Calculator Action
 
-A GitHub Action to calculate a beverage's alcohol by volume (ABV) given the original and final gravity. It uses the simplified formula of `(OG - FG) * 131.25`. It's the ultime GitHub Action for the passionate homebrewer. No, it's not very useful.
+A GitHub Action to calculate a beverage's alcohol by volume (ABV) given the original and final gravity. It uses the simplified formula of `(OG - FG) * 131.25`. It's the ultime GitHub Action for the passionate homebrewer. No, it's not very useful. Test.
 
 ## Inputs
 
