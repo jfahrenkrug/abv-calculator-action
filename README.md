@@ -20,7 +20,9 @@ The calculated ABV.
 
 ## Example usage
 
+```yaml
 uses: jfahrenkrug/abv-calculator-action@v1
 with:
   og: '1.050'
   fg: '1.010'
+```
