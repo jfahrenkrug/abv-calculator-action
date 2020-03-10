@@ -1,0 +1,17 @@
+name: 'ABV Calculator'
+description: 'Calculate the alcohol content of a beverage'
+inputs:
+  og:  # id of input
+    description: 'Original Gravity'
+    required: true
+    default: '1.050'
+  fg:  # id of input
+    description: 'Final Gravity'
+    required: true
+    default: '1.010'
+outputs:
+  abv: # id of output
+    description: 'The calculated ABV'
+runs:
+  using: 'node12'
+  main: 'index.js'
