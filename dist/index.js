@@ -66,7 +66,7 @@ try {
     throw new TypeError("OG or FG is not a valid number.")
   }
 
-  let abv = (og - fg) * 131.25;
+  let abv = ((og - fg) * 131.25).toPrecision(3).toString();
 
   console.log(`Using an OG of ${ogInput} and an FG of ${fgInput}, the ABV is ${abv}.`);
   core.setOutput("abv", abv);
