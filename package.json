@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/jfahrenkrug/abv-calculator-action#readme",
   "dependencies": {
-    "@actions/core": "^1.2.6"
+    "@actions/core": "^1.9.1"
   },
   "devDependencies": {
     "@zeit/ncc": "^0.21.1"
